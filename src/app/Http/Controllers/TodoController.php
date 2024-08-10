@@ -20,4 +20,11 @@ class TodoController extends Controller
         Todo::create($todo);
         return redirect('/')->with('message', 'todoを作成しました');
     }
+
+    public function update(TodoRequest $request)
+    {
+        $todo = $request->only(['content']);
+        Todo::find($request->id)->update($todo);
+        return redirect('/')->with('message', 'todoを更新しました');
+    }
 }
