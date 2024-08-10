@@ -3,14 +3,18 @@
     background: #d1e7dd;
     color: #0f5132;
     border: #badbcc;
-    padding: 15px 20px;
+    padding: 10px 30px;
 }
 
 .todo__alert--danger {
     background: #f8d7da;
     color: #842029;
     border: #f5c2c7;
-    padding: 15px 20px;
+    padding: 10px 0;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
 }
 
 /* -----todo作成----- */
