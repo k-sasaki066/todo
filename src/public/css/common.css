@@ -10,11 +10,22 @@
     margin: 0 auto;
 }
 
+.header__utilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__logo {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
     font-size: 24px;
     font-weight: bold;
+}
+
+.header-nav__item-link {
+    color: #fff;
+    text-decoration: none;
 }
 
